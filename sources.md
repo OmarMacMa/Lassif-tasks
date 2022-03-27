@@ -7,3 +7,6 @@
 ## Getform
 ### We used Getform so we could compilate the elements that we get from the webpage, 
 ## Zapier
+### This software is capable of sending our information to the AirTable in a way we can work with it and modify it.
+## Github dabblelab/57-python-alexa-airtable-as-a-database-example repository
+### We use it to download a template to build the code in the amazon developer console, where we use it to have a conversation with alexa and being capable of sending the data to the Sirtable
