@@ -1,0 +1,132 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lassif tasks",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "TheNameIsIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{user_name}",
+            "The task name is {user_name}",
+            "the task is {user_name}",
+            "Task {user_name}",
+            "Task is {user_name}"
+          ]
+        },
+        {
+          "name": "TellFavouriteColorIntent",
+          "slots": [
+            {
+              "name": "color_name",
+              "type": "AMAZON.Color"
+            }
+          ],
+          "samples": [
+            "the difficulty level is {color_name}",
+            "difficulty is {color_name}",
+            "is {color_name}",
+            "level is {color_name}",
+            "difficulty level is {color_name} ",
+            "his favourite color is {color_name}",
+            "favourite color is {color_name}",
+            "my favourite color is {color_name}"
+          ]
+        },
+        {
+          "name": "AddNewRecordIntent",
+          "slots": [],
+          "samples": [
+            "add new",
+            "add a new",
+            "add new task to the list",
+            "add new task",
+            "add a new task to the list",
+            "add a new record to the list",
+            "add a new task"
+          ]
+        },
+        {
+          "name": "ChangeColorIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            },
+            {
+              "name": "color_name",
+              "type": "AMAZON.Color"
+            }
+          ],
+          "samples": [
+            "change {user_name} difficulty to {color_name}",
+            "update {user_name} difficulty level to {color_name}",
+            "change {user_name} difficulty level to {color_name}"
+          ]
+        },
+        {
+          "name": "GetFavoriteColorIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "tell {user_name} defficulty level",
+            "give me {user_name} defficulty level",
+            "tell me {user_name} defficulty level",
+            "what is {user_name} defficulty level"
+          ]
+        },
+        {
+          "name": "DeleteRecordIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "delete {user_name}",
+            "delete the task of {user_name}",
+            "delete {user_name} task",
+            "delete {user_name} record"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "13"
+}
