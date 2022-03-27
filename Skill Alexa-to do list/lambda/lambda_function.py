@@ -20,9 +20,9 @@ import requests
 
 # Establish connection with the airtable table_name
 
-base_id = 'appAH6dWhQc9t5vwk'
-table_name = 'Alexa-Table'
-api_key = 'keypNItTB768zx95f'
+base_id = 'BASEAPI'
+table_name = 'TABLENAME'
+api_key = 'APIKEY'
 
 table = Airtable(base_id, table_name, api_key)
 
