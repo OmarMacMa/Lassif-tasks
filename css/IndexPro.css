@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(175, 175, 189);
+}
+#contenedor{
+    width: 99%;
+    padding: 1;
+    text-align: left;
+    margin: 0 auto;
+}
+#Titulo{
+    background-color: rgb(85, 107, 96);
+    height: 60px;
+    color:bisque;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    margin: .5;
+    padding: 8px 2px 2px 30px;
+    border-radius: 7px ;
+}
+#descrip{
+    color: rgb(230, 216, 216);
+}
+#resumen{
+    color: rgb(255, 238, 217);
+    font-weight: lighter;
+    font-size: 25px;
+}
+#Imagen{
+    padding: 2em 2em 2px 1em;
+}
+#restante{
+    font-weight: bolder;
+}
+#indice{
+    border: 1;
+    align-items: right;
+    padding: 2em 3em 0 0;
+}
+#Tablair{
+    width: 425px;
+    height: 400px;
+}
+#dtable{
+    border: 1px solid black
+}
+#cabeza{
+    font-weight: bolder;
+}
+#cuerp{
+    font-weight: lighter;
+}
