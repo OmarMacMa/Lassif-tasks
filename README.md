@@ -7,6 +7,6 @@ For its implementation it is needed to make a developer account in developer.ama
 The same process to Airtable, and finally enjoy the skills and website.
 
 Brief description of what was done and the technologies used:
-<a href="https://youtu.be/IrcjoI5Ysa0" target="_blank">Click in here</a>
+<a target="_blank" href="https://youtu.be/IrcjoI5Ysa0">Click in here</a>
 
 *Participants: Carlos Salinas, Hector Carrillo and Omar Macias*
